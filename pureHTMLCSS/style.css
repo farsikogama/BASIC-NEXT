@@ -2,6 +2,15 @@ body {
   background: white;
 }
 
+p {
+  margin: 3px 0px;
+  padding: 0;
+  font: 12px arial, sans-serif;
+}
+span {
+  font-weight: bold;
+}
+
 .container {
   width: 320px;
   height: 475px;
@@ -18,7 +27,7 @@ body {
 }
 
 .card {
-  width: 300px;
+  width: 320px;
   /* flex-basis: 100%; */ /* pakai untuk direction row saja*/
   display: flex;
   justify-content: center;
@@ -35,12 +44,35 @@ body {
 .row {
   flex-basis: 100%;
   display: flex;
-  padding: 5px;
-  margin: 5px;
+  align-items: center;
+  padding: 0px 5px;
+  margin: 3px 5px;
 }
 
-img {
+.profile img {
+  border-radius: 50%;
+  width: 30px; /*untuk atur besar gambar*/
+  height: 30px; /*untuk atur besar gambar*/
+  border: 2px solid rgb(49, 49, 253);
+  margin: 5px 10px 5px 0px;
+  padding: 0;
+  object-fit: cover;
+}
+
+.main img {
   object-fit: cover;
   height: 150px; /*untuk atur besar gambar*/
   width: 100%; /*untuk atur lebar gambar tampil seluruhnya*/
+}
+
+.action img {
+  width: 20px; /*untuk atur besar gambar*/
+  height: 20px; /*untuk atur besar gambar*/
+  margin: 0px 10px 0px 0px;
+  padding: 0;
+  object-fit: cover;
+}
+
+.last {
+  margin-left: auto;
 }
