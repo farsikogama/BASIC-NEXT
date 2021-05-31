@@ -1,0 +1,46 @@
+body {
+  background: white;
+}
+
+.container {
+  width: 320px;
+  height: 475px;
+  display: flex;
+  /* justify-content: center; */ /* untuk bikin ke tengah flex-direction row*/
+  align-items: center; /* untuk bikin ke tengah flex-direction: column atau ke tengah secara horizontal flex-direction: row */
+  flex-direction: column;
+  /* flex-wrap: wrap; */ /* pakai untuk direction row saja*/
+  border: 1px solid black;
+  margin: auto;
+  padding: 20px;
+  background: rgb(236, 236, 236);
+  overflow: auto;
+}
+
+.card {
+  width: 300px;
+  /* flex-basis: 100%; */ /* pakai untuk direction row saja*/
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 0.5px solid rgba (0, 0, 0, 0.2);
+  border-radius: 3px;
+  margin: 0.3rem;
+  padding: 0;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  background: white;
+  block-size: fit-content;
+}
+
+.row {
+  flex-basis: 100%;
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+}
+
+img {
+  object-fit: cover;
+  height: 150px; /*untuk atur besar gambar*/
+  width: 100%; /*untuk atur lebar gambar tampil seluruhnya*/
+}
