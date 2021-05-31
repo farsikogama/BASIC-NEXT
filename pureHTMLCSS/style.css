@@ -58,9 +58,9 @@ span {
 }
 
 .main img {
-  object-fit: cover;
   height: 200px; /*untuk atur besar gambar*/
   width: 100%; /*untuk atur lebar gambar tampil seluruhnya*/
+  /* object-fit: cover; */
 }
 
 .action img {
