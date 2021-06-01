@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+// import component
+import Card from '../components/Card/Card'
+
 export default function Home() {
   return (
     <div>
@@ -10,7 +13,40 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main></main>
+      <main>
+        <div className={styles.container}>
+          <Card
+            name='Pak Eddy'
+            profilePict='/img/img2.jpg'
+            postImg='/img/img2.jpg'
+            postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
+          />
+          <Card
+            name='Pak Sudirman'
+            profilePict='/img/img3.jpg'
+            postImg='/img/img3.jpg'
+            postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
+          />
+          <Card
+            name='Pak Sudirman'
+            profilePict='/img/img3.jpg'
+            postImg='/img/img3.jpg'
+            postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
+          />
+          <Card
+            name='Pak Sudirman'
+            profilePict='/img/img3.jpg'
+            postImg='/img/img3.jpg'
+            postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
+          />
+          <Card
+            name='Pak Sudirman'
+            profilePict='/img/img3.jpg'
+            postImg='/img/img3.jpg'
+            postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
+          />
+        </div>
+      </main>
     </div>
   )
 }
