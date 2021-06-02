@@ -30,7 +30,6 @@ span {
   width: 320px;
   /* flex-basis: 30%; pakai untuk direction row saja */
   display: flex;
-  justify-content: center;
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 3px;
