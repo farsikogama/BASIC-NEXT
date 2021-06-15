@@ -22,27 +22,9 @@ export default function Home() {
             postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
           />
           <Card
-            name='Pak Sudirman'
-            profilePict='/img/img3.jpg'
-            postImg='/img/img3.jpg'
-            postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
-          />
-          <Card
-            name='Pak Sudirman'
-            profilePict='/img/img3.jpg'
-            postImg='/img/img3.jpg'
-            postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
-          />
-          <Card
-            name='Pak Sudirman'
-            profilePict='/img/img3.jpg'
-            postImg='/img/img3.jpg'
-            postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
-          />
-          <Card
-            name='Pak Sudirman'
-            profilePict='/img/img3.jpg'
-            postImg='/img/img3.jpg'
+            name='Pak Eddy'
+            profilePict='/img/img2.jpg'
+            postImg='/img/img2.jpg'
             postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
           />
         </div>
