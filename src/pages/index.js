@@ -16,13 +16,20 @@ export default function Home() {
       <main>
         <div className={styles.container}>
           <Card
-            name='Pak Eddy'
+            name='Pak Sudirman'
             profilePict='/img/img2.jpg'
             postImg='/img/img2.jpg'
             postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
           />
           <Card
             name='Pak Eddy'
+            profilePict='/img/img2.jpg'
+            postImg='/img/img2.jpg'
+            postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
+          />
+
+          <Card
+            name='Pak Sudirman'
             profilePict='/img/img2.jpg'
             postImg='/img/img2.jpg'
             postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
