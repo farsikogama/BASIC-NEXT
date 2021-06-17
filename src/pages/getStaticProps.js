@@ -1,12 +1,21 @@
+import Card from '../components/Card/Card'
+import styles from '../styles/Home.module.css'
+
 const Post = ({ todos }) => {
   return (
     <>
       <h1>getStaticProps</h1>
-      <ul>
+      <div className={styles.container}>
         {todos.map(item => (
-          <li key={item.id}>{item.title}</li>
+          // <li key={item.id}>{item.title}</li>
+          <Card
+            name={item.id}
+            profilePict='/img/img2.jpg'
+            postImg='/img/img2.jpg'
+            postText={item.title}
+          />
         ))}
-      </ul>
+      </div>
     </>
   )
 }
@@ -20,4 +29,13 @@ export async function getStaticProps() {
   return {
     props: { todos },
   }
+}
+
+{
+  /* <Card
+  name='Pak Sudirman'
+  profilePict='/img/img2.jpg'
+  postImg='/img/img2.jpg'
+  postText='Lorem ipsum dolor sit, amet consectetur adipisicing elit.'
+/> */
 }
